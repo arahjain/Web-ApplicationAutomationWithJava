@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1">
+	<test name="FirefoxTests">
+		<parameter name="browser" value="firefox"/>
+		<packages>
+			<package name="com.qatools.tests.*"/>
+		</packages>
+	</test>
+	<test name="ChromeTests">
+		<parameter name="browser" value="chrome"/>
+		<packages>
+			<package name="com.qatools.tests.*"/>
+		</packages>
+	</test>
+</suite>
