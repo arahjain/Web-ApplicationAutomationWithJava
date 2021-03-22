@@ -1,0 +1,7 @@
+com\qatools\tests\Elements.class
+com\qatools\getPageObjects\TextBoxPage.class
+com\qatools\getPageObjects\CheckBoxPage.class
+com\qatools\actions\ChangeURLAction.class
+com\qatools\testinitator\BaseUI.class
+com\qatools\utils\WaitUtils.class
+com\qatools\utils\CompareTwoStrings.class

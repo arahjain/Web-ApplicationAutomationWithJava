@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-21T21:44:41 IST" name="Regression" finished-at="2021-03-21T21:45:23 IST" duration-ms="41770">
+    <groups>
+    </groups>
+    <test started-at="2021-03-21T21:44:41 IST" name="FirefoxTests" finished-at="2021-03-21T21:45:05 IST" duration-ms="23996">
+      <class name="com.qatools.tests.Elements">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@3d1cfad4]" started-at="2021-03-21T21:44:41 IST" name="beforeTest" finished-at="2021-03-21T21:44:47 IST" duration-ms="5363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="textBox()[pri:1, instance:com.qatools.tests.Elements@3d1cfad4]" started-at="2021-03-21T21:44:47 IST" name="textBox" finished-at="2021-03-21T21:44:57 IST" duration-ms="9717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBox -->
+        <test-method signature="checkBox()[pri:2, instance:com.qatools.tests.Elements@3d1cfad4]" started-at="2021-03-21T21:44:57 IST" name="checkBox" finished-at="2021-03-21T21:45:05 IST" duration-ms="7989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@3d1cfad4]" started-at="2021-03-21T21:45:05 IST" name="closeBrowser" finished-at="2021-03-21T21:45:05 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qatools.tests.Elements -->
+    </test> <!-- FirefoxTests -->
+    <test started-at="2021-03-21T21:45:05 IST" name="ChromeTests" finished-at="2021-03-21T21:45:23 IST" duration-ms="17745">
+      <class name="com.qatools.tests.Elements">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@48974e45]" started-at="2021-03-21T21:45:05 IST" name="beforeTest" finished-at="2021-03-21T21:45:07 IST" duration-ms="1510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="textBox()[pri:1, instance:com.qatools.tests.Elements@48974e45]" started-at="2021-03-21T21:45:07 IST" name="textBox" finished-at="2021-03-21T21:45:15 IST" duration-ms="8449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBox -->
+        <test-method signature="checkBox()[pri:2, instance:com.qatools.tests.Elements@48974e45]" started-at="2021-03-21T21:45:15 IST" name="checkBox" finished-at="2021-03-21T21:45:23 IST" duration-ms="7659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@48974e45]" started-at="2021-03-21T21:45:23 IST" name="closeBrowser" finished-at="2021-03-21T21:45:23 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qatools.tests.Elements -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- Regression -->
+</testng-results>

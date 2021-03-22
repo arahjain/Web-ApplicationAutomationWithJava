@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
                     </span>
                     <div class="method-list-content passed suite-Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.qatools.tests.Elements" class="method navigator-link" hash-for-method="checkBox">checkBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="com.qatools.tests.Elements" class="method navigator-link" hash-for-method="checkBox">checkBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="com.qatools.tests.Elements" class="method navigator-link" hash-for-method="textBox">textBox</a> <!-- method navigator-link -->
@@ -132,6 +142,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="checkBox">
+                  </a> <!-- checkBox -->
+                  <span class="method-name">checkBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBox">
+                  </a> <!-- checkBox -->
+                  <span class="method-name">checkBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="textBox">
                   </a> <!-- textBox -->
                   <span class="method-name">textBox</span>
@@ -156,6 +180,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qatools.report.CustomReporter&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;packages&gt;
@@ -214,20 +241,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'textBox')
 data.setCell(0, 2, 'com.qatools.tests.Elements')
-data.setCell(0, 3, 4269);
+data.setCell(0, 3, 8841);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'textBox')
 data.setCell(1, 2, 'com.qatools.tests.Elements')
-data.setCell(1, 3, 4243);
+data.setCell(1, 3, 8735);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkBox')
+data.setCell(2, 2, 'com.qatools.tests.Elements')
+data.setCell(2, 3, 6543);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkBox')
+data.setCell(3, 2, 'com.qatools.tests.Elements')
+data.setCell(3, 3, 5856);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -260,23 +295,31 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">textBox</span>
-                <span class="method-start">4886 ms</span>
+                <span class="method-start">5336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBox</span>
+                <span class="method-start">14184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">9159 ms</span>
+                <span class="method-start">20731 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeTest(chrome)</span>
-                <span class="method-start">9846 ms</span>
+                <span class="method-start">21738 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">textBox</span>
-                <span class="method-start">11203 ms</span>
+                <span class="method-start">23234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBox</span>
+                <span class="method-start">31971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">15448 ms</span>
+                <span class="method-start">37829 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -28,6 +28,10 @@ public class TextBoxPage {
 	@FindBy(id = "submit")
 	public WebElement submitbutton;
 	
+	@FindBy(id = "name")
+	private WebElement name;
+	
+	
 
 	
 	public void enterName(String name) {
@@ -50,7 +54,7 @@ public class TextBoxPage {
 		submitbutton.click();
 	}
 	
-	
-	
-
+	public String verifyName() {
+		return name.getText();
+	}
 }

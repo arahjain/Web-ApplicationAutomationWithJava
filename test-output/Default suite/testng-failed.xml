@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qatools.tests.Elements">
         <methods>
-          <include name="textBox"/>
           <include name="closeBrowser"/>
+          <include name="checkBox"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.qatools.tests.Elements -->

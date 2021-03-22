@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-21T16:45:28 IST" name="Regression" finished-at="2021-03-21T16:45:44 IST" duration-ms="15545">
+  <suite started-at="2021-03-22T08:54:22 IST" name="Regression" finished-at="2021-03-22T08:55:00 IST" duration-ms="37989">
     <groups>
     </groups>
-    <test started-at="2021-03-21T16:45:28 IST" name="FirefoxTests" finished-at="2021-03-21T16:45:38 IST" duration-ms="9856">
+    <test started-at="2021-03-22T08:54:22 IST" name="FirefoxTests" finished-at="2021-03-22T08:54:43 IST" duration-ms="21714">
       <class name="com.qatools.tests.Elements">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@3514a4c0]" started-at="2021-03-21T16:45:28 IST" name="beforeTest" finished-at="2021-03-21T16:45:33 IST" duration-ms="4881" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@2df9b86]" started-at="2021-03-22T08:54:22 IST" name="beforeTest" finished-at="2021-03-22T08:54:27 IST" duration-ms="5328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="textBox()[pri:0, instance:com.qatools.tests.Elements@3514a4c0]" started-at="2021-03-21T16:45:33 IST" name="textBox" finished-at="2021-03-21T16:45:38 IST" duration-ms="4269" status="PASS">
+        <test-method signature="textBox()[pri:1, instance:com.qatools.tests.Elements@2df9b86]" started-at="2021-03-22T08:54:27 IST" name="textBox" finished-at="2021-03-22T08:54:36 IST" duration-ms="8841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBox -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@3514a4c0]" started-at="2021-03-21T16:45:38 IST" name="closeBrowser" finished-at="2021-03-21T16:45:38 IST" duration-ms="675" status="PASS">
+        <test-method signature="checkBox()[pri:2, instance:com.qatools.tests.Elements@2df9b86]" started-at="2021-03-22T08:54:36 IST" name="checkBox" finished-at="2021-03-22T08:54:42 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@2df9b86]" started-at="2021-03-22T08:54:42 IST" name="closeBrowser" finished-at="2021-03-22T08:54:43 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qatools.tests.Elements -->
     </test> <!-- FirefoxTests -->
-    <test started-at="2021-03-21T16:45:38 IST" name="ChromeTests" finished-at="2021-03-21T16:45:44 IST" duration-ms="5679">
+    <test started-at="2021-03-22T08:54:43 IST" name="ChromeTests" finished-at="2021-03-22T08:55:00 IST" duration-ms="16233">
       <class name="com.qatools.tests.Elements">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@71def8f8]" started-at="2021-03-21T16:45:38 IST" name="beforeTest" finished-at="2021-03-21T16:45:40 IST" duration-ms="1356" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.qatools.tests.Elements@28f2a10f]" started-at="2021-03-22T08:54:43 IST" name="beforeTest" finished-at="2021-03-22T08:54:45 IST" duration-ms="1495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="textBox()[pri:0, instance:com.qatools.tests.Elements@71def8f8]" started-at="2021-03-21T16:45:40 IST" name="textBox" finished-at="2021-03-21T16:45:44 IST" duration-ms="4243" status="PASS">
+        <test-method signature="textBox()[pri:1, instance:com.qatools.tests.Elements@28f2a10f]" started-at="2021-03-22T08:54:45 IST" name="textBox" finished-at="2021-03-22T08:54:54 IST" duration-ms="8735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBox -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@71def8f8]" started-at="2021-03-21T16:45:44 IST" name="closeBrowser" finished-at="2021-03-21T16:45:44 IST" duration-ms="76" status="PASS">
+        <test-method signature="checkBox()[pri:2, instance:com.qatools.tests.Elements@28f2a10f]" started-at="2021-03-22T08:54:54 IST" name="checkBox" finished-at="2021-03-22T08:55:00 IST" duration-ms="5856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qatools.tests.Elements@28f2a10f]" started-at="2021-03-22T08:55:00 IST" name="closeBrowser" finished-at="2021-03-22T08:55:00 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
