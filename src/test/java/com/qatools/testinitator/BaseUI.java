@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseUI {	
 	protected WebDriver driver = null;
+	//Changes done by Eclipse
 	
 	@BeforeClass
 	@Parameters("browser")
